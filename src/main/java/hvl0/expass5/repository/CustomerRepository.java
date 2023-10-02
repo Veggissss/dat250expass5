@@ -1,7 +1,8 @@
-package hvl0.expass5;
+package hvl0.expass5.repository;
 
 import java.util.List;
 
+import hvl0.expass5.model.Customer;
 import org.springframework.data.repository.CrudRepository;
 
 public interface CustomerRepository extends CrudRepository<Customer, Long> {
